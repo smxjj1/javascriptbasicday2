@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        //参数 形参 形式参数
+        function cl(msg) { //声明了一个参数 告诉解析器我是一个占位符
+            console.log(msg);
+        }
+        //参数 实参 实际参数
+        cl("哈哈");
+        cl("嘿嘿");
+        cl("呵呵");
+
+        //格式
+        /*function fnName(arg1, arg2, arg3) {
+         }*/
+
+        //求x-y之间所有数的和
+        function getSum(x, y) {
+            var sum = 0;
+            for (var i = x; i <= y; i++) {
+                sum += i;
+            }
+            console.log(sum);
+        }
+
+        function getsum(x, y) {
+            var sum = 0;
+            if (x > y) {
+                for (var i = x; i >= y; i--) {
+                    sum += i;
+                }
+            } else {
+                for (var i = x; i <= y; i++) {
+                    sum += i;
+                }
+            };
+            return sum 
+        }
+        getSum(1, 5); //15 * 5
+        getSum(10, 50);
+        getSum(10, 15);
+    </script>
+</body>
+
+</html>
