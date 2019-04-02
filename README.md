@@ -1,5 +1,3 @@
-# javascriptbasicday2
-relearn javascript
 1.1.函数
 函数的作用？
 函数可以封装一段代码，只需定义一次，即可多次调用和执行，因为可以传入参数所以会非常灵活.
